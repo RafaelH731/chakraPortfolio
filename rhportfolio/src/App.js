@@ -1,13 +1,13 @@
-// import { Features } from './components/Features';
+import { Features } from './components/Features';
 import { Header } from './components/Header';
-// import { Pricing } from './components/Pricing';
+import { Pricing } from './components/Pricing';
 
 function App() {
   return (
     <div className='App'>
       <Header />
-      {/* <Pricing />
-      <Features /> */}
+      <Pricing />
+      <Features />
     </div>
   );
 }
