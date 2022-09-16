@@ -165,11 +165,11 @@ import {
             </Box>
             <Box p={['32px', '32px', '60px']} fontSize='lg' bg='white'>
               <Text textAlign='left'>
-                Thoughts for shots is a social media concept that allows users to create an account and post a thought. Their thoughts can be seen by their friends, those users can then buy their friends a "shot" for their "thoughts"
+                Zenten is an application that allows users to choose options for time they would like to relax and their mood. It will route to new page that will hava a timer of rotating pictures and quotes based on what the user chose.
               </Text>
               <Stack as='ul' spacing='5' pt='6'>
-                <ListItem>Chakra UI Framework</ListItem>
-                <ListItem>MERN</ListItem>
+                <ListItem>APIs</ListItem>
+                <ListItem>Javascript</ListItem>
                 <ListItem>Github</ListItem>
                 <ListItem>Slack</ListItem>
               </Stack>

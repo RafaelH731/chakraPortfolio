@@ -15,7 +15,7 @@ export function Header() {
        Welcome
       </Heading>
       <Text fontWeight='medium' fontSize={['lg', 'lg', '2xl']} pt='4'>
-        My name is Rafael Herrera, a junior software engineer. I have completed a software bootcamp through the University Of Washington. I am educated both in fron-end and back-end with a focus on front-end. 
+        My name is Rafael Herrera, a junior software engineer. I have completed a software bootcamp through the University Of Washington. I am educated both in front-end and back-end with a focus on front-end. 
       </Text>
     </Box>
   );

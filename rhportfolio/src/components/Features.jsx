@@ -1,4 +1,4 @@
-import { Box, HStack, Icon, Stack, StackProps, Text } from '@chakra-ui/react';
+import { Box, HStack, Icon, Stack, StackProps, Text, Button } from '@chakra-ui/react';
 import {
   HassleFreeIcon,
   MoneyBackGuaranteeIcon,
@@ -6,14 +6,14 @@ import {
 } from '../icons/Icons';
 
 interface FeatureProps extends StackProps {
-  icon: React.ElementType;
+  button: React.ElementType;
 }
 
 function Feature(props: FeatureProps) {
-  const { icon, children, ...rest } = props;
+  const { button, children, ...rest } = props;
   return (
     <HStack {...rest} spacing='6' align='start'>
-      <Icon as={icon} boxSize={['8', '8', '12']} />
+      <Button as={button} boxSize={['8', '8', '12']} />
       <Text textAlign='left' fontSize='lg' fontWeight='bold'>
         {children}
       </Text>
@@ -25,18 +25,15 @@ export function Features() {
   return (
     <Box maxW='1024px' m='auto' pt='60px' pb='8' as='section'>
       <Stack
-        px='12'
         direction={['column', 'column', 'row']}
-        spacing={['6', '6', '5']}
+        spacing={400}
       >
-        <Feature icon={MoneyBackGuaranteeIcon}>
-          30 days money back Guarantee
-        </Feature>
-        <Feature icon={HassleFreeIcon}>No setup fees 100% hassle-free</Feature>
-        <Feature icon={MonthlySubscriptionIcon}>
-          No monthly subscription Pay once and for all
-        </Feature>
+        <Button colorScheme='blue'>GitHub</Button>
+        <Button colorScheme='blue'>LinkedIn</Button>
+        <Button colorScheme='blue'>Resume</Button>
       </Stack>
     </Box>
   );
 }
+
+<Button colorScheme='blue'>Button</Button>
