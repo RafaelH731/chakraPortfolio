@@ -1,4 +1,4 @@
-import { Box, HStack, Icon, Stack, StackProps, Text, Button } from '@chakra-ui/react';
+import { Box, HStack, Flex, Stack, StackProps, Text, Button, Link, Center, Spacer } from '@chakra-ui/react';
 import {
   HassleFreeIcon,
   MoneyBackGuaranteeIcon,
@@ -23,14 +23,30 @@ function Feature(props: FeatureProps) {
 
 export function Features() {
   return (
-    <Box maxW='1024px' m='auto' pt='60px' pb='8' as='section'>
-      <Stack
-        direction={['column', 'column', 'row']}
-        spacing={400}
-      >
-        <Button colorScheme='blue'>GitHub</Button>
-        <Button colorScheme='blue'>LinkedIn</Button>
-        <Button colorScheme='blue'>Resume</Button>
+    <Box as='section'
+      color='gray.50'
+      bg='purple.600'
+      pt={['60px', '60px', '90px']}
+      pb='70px'
+      px='8'
+      textAlign={['left', 'left', 'center']}>
+      <Stack>
+        <Center>
+          <HStack spacing='72px' >
+            <Link href='https://chakra-ui.com' isExternal>
+              LinkedIn
+            </Link>
+            <Spacer />
+            <Link href='https://chakra-ui.com' isExternal>
+              GitHub
+            </Link>
+            <Spacer />
+            <Link href='https://chakra-ui.com' isExternal>
+              Resume
+            </Link>
+            <Spacer />
+          </HStack>
+        </Center>
       </Stack>
     </Box>
   );
