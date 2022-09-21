@@ -39,7 +39,7 @@ import {
           textAlign='center'
         >
           <Flex direction={['column', 'column', 'row']}>
-            <Box bg='#F0EAFB' p={['28px', '6opx', '60px']}>
+            <Box bg='#657A97' p={['28px', '6opx', '60px']}>
               <Text fontSize='xl' fontWeight='extrabold'>
                 Thoughts For Shots
               </Text>
@@ -74,7 +74,7 @@ import {
           </Flex>
 
           <Flex direction={['column', 'column', 'row']}>
-            <Box bg='#F0EAFB' p={['28px', '6opx', '60px']}>
+            <Box bg='#657A97' p={['28px', '6opx', '60px']}>
               <Text fontSize='xl' fontWeight='extrabold'>
                 Dotify
               </Text>
@@ -108,7 +108,7 @@ import {
             </Box>
           </Flex>
           <Flex direction={['column', 'column', 'row']}>
-            <Box bg='#F0EAFB' p={['28px', '6opx', '60px']}>
+            <Box bg='#657A97' p={['28px', '6opx', '60px']}>
               <Text fontSize='xl' fontWeight='extrabold'>
                 Team Generator
               </Text>
@@ -142,7 +142,7 @@ import {
             </Box>
           </Flex>
           <Flex direction={['column', 'column', 'row']}>
-            <Box bg='#F0EAFB' p={['28px', '6opx', '60px']}>
+            <Box bg='#657A97' p={['28px', '6opx', '60px']}>
               <Text fontSize='xl' fontWeight='extrabold'>
                 Zenten
               </Text>

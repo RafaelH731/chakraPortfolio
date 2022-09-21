@@ -25,7 +25,7 @@ export function Features() {
   return (
     <Box as='section'
       color='gray.50'
-      bg='purple.600'
+      bg='#2B4F71'
       pt={['60px', '60px', '90px']}
       pb='70px'
       px='8'
@@ -33,15 +33,15 @@ export function Features() {
       <Stack>
         <Center>
           <HStack spacing='72px' >
-            <Link href='https://chakra-ui.com' isExternal>
+            <Link href='https://www.linkedin.com/in/rafael-herrera-016006238/' isExternal>
               LinkedIn
             </Link>
             <Spacer />
-            <Link href='https://chakra-ui.com' isExternal>
+            <Link href='https://github.com/RafaelH731' isExternal>
               GitHub
             </Link>
             <Spacer />
-            <Link href='https://chakra-ui.com' isExternal>
+            <Link href='https://docs.google.com/document/d/1Z4YHarDsZbOfJWHWgsRKyX4VroBQBrU2YK8kSFhSLwQ/edit?usp=sharing' isExternal>
               Resume
             </Link>
             <Spacer />
