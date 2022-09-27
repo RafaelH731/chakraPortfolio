@@ -50,19 +50,21 @@ import {
     
   </Image>
 </Stack>
-
-              <Button
-                colorScheme='purple'
+<a href="https://aerux-thoughts-for-shots.herokuapp.com/" target="_blank" rel="linkTopage">
+              <Button 
+              
+                colorScheme='facebook'
                 size='lg'
                 w={['auto', '282px', '282px']}
                 mt='6'
               >
                 View Here
               </Button>
+              </a>
             </Box>
             <Box p={['32px', '32px', '60px']} fontSize='lg' bg='white'>
               <Text textAlign='left'>
-                Thoughts for shots is a social media concept that allows users to create an account and post a thought. Their thoughts can be seen by their friends, those users can then buy their friends a "shot" for their "thoughts"
+                Thoughts for shots is a social media concept that allows users to create an account and post a thought. Their thoughts can be seen by their friends, those users can then buy their friends a "shot" for their "thoughts".
               </Text>
               <Stack as='ul' spacing='5' pt='6'>
                 <ListItem>Chakra UI Framework</ListItem>
@@ -85,7 +87,7 @@ import {
     
   </Image>
 </Stack>
-
+<a href="https://lit-oasis-project-2.herokuapp.com/" target="_blank" rel="linkTopage">
               <Button
                 colorScheme='purple'
                 size='lg'
@@ -94,6 +96,7 @@ import {
               >
                 View Here
               </Button>
+              </a>
             </Box>
             <Box p={['32px', '32px', '60px']} fontSize='lg' bg='white'>
               <Text textAlign='left'>
@@ -119,7 +122,7 @@ import {
     
   </Image>
 </Stack>
-
+<a href="https://github.com/RafaelH731/team-profile-generator" target="_blank" rel="linkTopage">
               <Button
                 colorScheme='purple'
                 size='lg'
@@ -128,6 +131,7 @@ import {
               >
                 View Here
               </Button>
+              </a>
             </Box>
             <Box p={['32px', '32px', '60px']} fontSize='lg' bg='white'>
               <Text textAlign='left'>
@@ -153,7 +157,7 @@ import {
     
   </Image>
 </Stack>
-
+<a href="https://github.com/juliakhdavis/zenTen" target="_blank" rel="linkTopage">
               <Button
                 colorScheme='purple'
                 size='lg'
@@ -162,6 +166,7 @@ import {
               >
                 View Here
               </Button>
+              </a>
             </Box>
             <Box p={['32px', '32px', '60px']} fontSize='lg' bg='white'>
               <Text textAlign='left'>
