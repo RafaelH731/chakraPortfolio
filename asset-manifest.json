@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/chakraPortfolio/static/js/main.96a77a52.js",
+    "main.js": "/chakraPortfolio/static/js/main.b6780325.js",
     "static/media/thoughtsforshots-screenshot.png": "/chakraPortfolio/static/media/thoughtsforshots-screenshot.ef60d5f9ba264638998b.png",
     "static/media/zenten.png": "/chakraPortfolio/static/media/zenten.ccc0fdff295bfd70bb74.png",
     "static/media/dotify-screenshot.png": "/chakraPortfolio/static/media/dotify-screenshot.775387f93bf6a8cf38c9.png",
     "static/media/team-screenshot.png": "/chakraPortfolio/static/media/team-screenshot.e4e3df2ba779b0f07f41.png",
     "index.html": "/chakraPortfolio/index.html",
-    "main.96a77a52.js.map": "/chakraPortfolio/static/js/main.96a77a52.js.map"
+    "main.b6780325.js.map": "/chakraPortfolio/static/js/main.b6780325.js.map"
   },
   "entrypoints": [
-    "static/js/main.96a77a52.js"
+    "static/js/main.b6780325.js"
   ]
 }
