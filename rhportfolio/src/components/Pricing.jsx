@@ -89,7 +89,7 @@ import {
 </Stack>
 <a href="https://lit-oasis-project-2.herokuapp.com/" target="_blank" rel="linkTopage">
               <Button
-                colorScheme='purple'
+                colorScheme='facebook'
                 size='lg'
                 w={['auto', '282px', '282px']}
                 mt='6'
@@ -124,7 +124,7 @@ import {
 </Stack>
 <a href="https://github.com/RafaelH731/team-profile-generator" target="_blank" rel="linkTopage">
               <Button
-                colorScheme='purple'
+                colorScheme='facebook'
                 size='lg'
                 w={['auto', '282px', '282px']}
                 mt='6'
@@ -159,7 +159,7 @@ import {
 </Stack>
 <a href="https://github.com/juliakhdavis/zenTen" target="_blank" rel="linkTopage">
               <Button
-                colorScheme='purple'
+                colorScheme='facebook'
                 size='lg'
                 w={['auto', '282px', '282px']}
                 mt='6'
